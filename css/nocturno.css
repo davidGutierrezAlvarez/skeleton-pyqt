@@ -1,0 +1,27 @@
+QWidget, tabWidget {
+	background-color: #fefefe;
+}
+
+
+QTabBar::tab {
+	width: 0; height: 0; margin: 0; padding: 0; border: none;
+}
+
+
+QPushButton {
+	font-size: 20px;
+	color: #787878;
+	border: 3px solid #787878;
+	border-radius: 15px; 
+	background: transparent;
+}
+
+QPushButton:hover {
+	color: black;
+	border-color: black;
+}
+
+QLabel {
+	font-size: 15px;
+	color: black;
+}
